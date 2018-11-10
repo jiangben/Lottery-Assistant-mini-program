@@ -1,0 +1,21 @@
+<!--pages/lottery/lottery.wxml-->
+<view class="page">
+  <button>test</button>
+  <view class="page_lotteryRusult">
+    <text class="title">{{successTitle}}</text>
+    <text class="tips">{{successTip}}</text>
+    <text class="getTime">{{successGetTime}}</text>
+    </view>
+  <view class="page_activeInfo">
+    <text>活动内容</text>
+    </view>
+  <view class="page_winnerInfo">
+    <text>中奖者信息</text>
+    </view>
+  <view class="page_playersInfo">
+    <text>参与者信息</text>
+    </view>
+  <view class="page_share">
+  <text>分享</text>
+  </view>
+</view>

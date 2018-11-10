@@ -1,0 +1,19 @@
+<view class='loading-container'>
+  
+  <view>
+    <view class="enter-container">
+      <image  
+        mode="widthFix" 
+        src="/img/no_image.9.png">
+      </image>
+      
+      <button type='primary' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 
+        开始抽奖
+      </button>
+  </view>
+  
+  </view>
+
+</view>
+
+

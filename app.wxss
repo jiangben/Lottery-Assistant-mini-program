@@ -1,0 +1,193 @@
+/**app.wxss**/
+@import "./style/layout.wxss";
+
+.container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-title{
+  width: 380rpx;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.flex-stitle{
+  width: 380rpx;
+  overflow:hidden;
+  opacity:0.6;
+  display: -webkit-box;   
+  -webkit-box-orient: vertical;
+  text-overflow:ellipsis;
+  -webkit-line-clamp:3;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.v-center{
+  align-items: center;
+}
+.h-center{
+  justify-content: center;
+}
+page {
+  background-color: #F2f2f2;
+}
+
+.tl{
+  text-align: left;
+}
+.tr{
+  text-align: right;
+}
+.fr{
+  float: right;
+}
+
+.sm-img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.pull-right{
+  margin-left: auto;
+  padding-right: 20rpx;
+}
+
+.wh20{ width: 20px !important;height: 20px;}
+.wh30{ width: 30px !important;height: 20px;}
+.wh40{ width: 40px !important;height: 40px;}
+.wh50{ width: 50px !important;height: 50px;}
+.wh60{ width: 60px !important;height: 60px;}
+.wh70{ width: 70px !important;height: 70px;}
+.wh80{ width: 80px !important;height: 80px;}
+.wh100{ width: 100px !important;height: 100px;}
+.wh120{ width: 120px !important;height: 120px;}
+
+
+.whr20{ width: 20rpx !important;height: 20rpx;}
+.whr30{ width: 30rpx !important;height: 20rpx;}
+.whr40{ width: 40rpx !important;height: 40rpx;}
+.whr50{ width: 50rpx !important;height: 50rpx;}
+.whr60{ width: 60rpx !important;height: 60rpx;}
+.whr70{ width: 70rpx !important;height: 70rpx;}
+.whr80{ width: 80rpx !important;height: 80rpx;}
+.whr100{ width: 100rpx !important;height: 100rpx;}
+
+
+
+.mt-20{margin-top:-20rpx;}
+.mt-40{margin-top:-40rpx;}
+.mt-60{margin-top:-60rpx;}
+.mt0{margin-top:0rpx !important;}
+.mt10{margin-top:10rpx;}
+.mt15{margin-top:15rpx;}
+.mt20{margin-top:20rpx;}
+.mt30{margin-top:30rpx;}
+.mt40{margin-top:40rpx;}
+.mt50{margin-top:50rpx;}
+.mt60{margin-top:60rpx;}
+.mt100{margin-top:100rpx;}
+.ma05{margin-top:5rpx;}
+
+.mr10{margin-right:10rpx;}
+.mr13{margin-right:13rpx;}
+.mr15{margin-right:15rpx;}
+.mr20{margin-right:20rpx;}
+.mr30{margin-right:30rpx;}
+.mr40{margin-right:40rpx;}
+.mr05{margin-right:5rpx;}
+.ml8{ margin-left: 8rpx;}
+.ml10{margin-left:10rpx;}
+.ml15{margin-left:15rpx;}
+.ml20{margin-left:20rpx;}
+.ml30{margin-left:30rpx;}
+.ml40{margin-left:40rpx;}
+.ml05{margin-left:5rpx;}
+
+.pl05{padding-left: 5rpx;}
+.pl08{padding-left: 8rpx;}
+.pl10{padding-left: 10rpx;}
+.pl20{padding-left: 20rpx;}
+.pl30{padding-left: 30rpx;}
+.pl40{padding-left: 40rpx;}
+.pl50{padding-left: 50rpx;}
+
+.pr05{padding-right: 5rpx;}
+.pr10{padding-right: 10rpx;}
+.pr20{padding-right: 20rpx;}
+.pr30{padding-right: 30rpx;}
+.pr40{padding-right: 40rpx;}
+.pr50{padding-right: 50rpx;}
+
+
+.pa05{padding: 5rpx;}
+.pa10{padding: 10rpx;}
+.pa20{padding: 20rpx;}
+.pa30{padding: 30rpx;}
+.pa40{padding: 40rpx;}
+.pa50{padding: 50rpx;}
+
+
+.widget-camara { 
+  background: #fff; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  z-index: 500; 
+} 
+.top-right{
+  position: fixed; 
+  top:20px; 
+  right: 5px; 
+}
+.top-left{
+  position: fixed; 
+  top:0px; 
+  left: 5px; 
+}
+.widget-goTop { 
+  position: fixed; 
+  bottom: 50px; 
+  right: 5px; 
+  background: rgba(0,0,0,0.48); 
+  border-radius: 50%; 
+  overflow: hidden; 
+  z-index: 500; 
+} 
+.widget-goTop .gotop-wrap { 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width: 50px; 
+  height: 50px; 
+  font-size: 12px; 
+  color: #fff; 
+  border-radius: 50%; 
+  background-color: rgba(0,0,0,0.8); 
+}
+.widget-camara .camara-wrap { 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center; 
+  border-radius: 50%; 
+}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.fs-9{font-size: 9px;}
+.fs-10{font-size: 10px;}
+.fs-11{font-size: 11px;}
+.fs-12{font-size: 12px;}
+.fs-13{font-size: 13px;}
+.fs-14{font-size: 14px;}
+.fs-15{font-size: 15px;}
+.fs-16{font-size: 16px;}
